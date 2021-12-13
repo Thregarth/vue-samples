@@ -88,7 +88,7 @@ export default {
             this.display = this.store - parseFloat(this.display) 
             break;
           case '*':
-            this.display = this.store - parseFloat(this.display) 
+            this.display = this.store * parseFloat(this.display) 
             break;
           case '/':
             this.display = this.store / parseFloat(this.display) 
